@@ -1,0 +1,28 @@
+{
+  "name": "dracula-programmiri",
+  "displayName": "Dracula programmiri edit",
+  "description": "Dracula theme, but a bit darker with more contrast.",
+  "version": "1.0.0",
+  "publisher": "programmiri",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula programmiri edit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula programmiri.tmTheme"
+      },
+      
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programmiri/vs-code.git"
+  },
+}
